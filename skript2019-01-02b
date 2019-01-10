@@ -1,0 +1,4 @@
+#! /bin/bash
+wget -nc --progress=dot MY GITHUB ADDRESS 
+tar -zcvf $2.tar.gz
+
