@@ -6,6 +6,7 @@ if [ ! -d $dir ]
 then
   echo "directory exists"
 else
+#make the directory:
 mkdir -p $dir
 read 2 
 touch $2
