@@ -10,7 +10,7 @@ read -p "Who are you? " user && ((
 who -u | grep -q "^$user "   &&   
 
 # run top with the given username and  if the user is not logged in
-top -u "$user"                   ) || 
+top -u "$user"   ) || 
 
 #print out an error messege "$user is not logged in"
 echo "$user is not logged in"   )
