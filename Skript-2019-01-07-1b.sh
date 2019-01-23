@@ -1,5 +1,7 @@
 
 
+
+
 #!/bin/bash
 #check if the file is executable
 if [ -x c:/etc/sami.txt ]
@@ -13,3 +15,5 @@ then
    
      echo "File has execute permission" 
    fi
+
+
