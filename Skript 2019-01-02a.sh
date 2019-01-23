@@ -1,3 +1,7 @@
+
+
+
+
 #! /bin/bash
 echo "enter directory name"
 read dir 
@@ -12,3 +16,5 @@ read 2
 touch $2
 mv $2 dir/.
 fi 
+
+
