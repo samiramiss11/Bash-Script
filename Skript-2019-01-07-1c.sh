@@ -22,3 +22,6 @@ fi
 
 #out put will be:
 SAMIRA   ARIMAS
+
+
+
