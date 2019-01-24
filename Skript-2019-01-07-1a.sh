@@ -1,6 +1,28 @@
 
 
 
+#!/bin/bash
+#asking the user about its name.write the name.
+echo “Who are you?enter name”
+read a
+
+#checking if the user name is in the list
+who >userlist
+
+#if  its in the list print user logged on.
+if grep $a userlist
+then
+echo “user logged on”
+
+#if  its not in the list print user not logged on .
+else
+echo “user not logged on”
+
+fi
+
+
+
+
 
 #!/bin/bash
 # take the username and save it as variable $user
