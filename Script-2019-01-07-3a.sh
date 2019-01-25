@@ -1,7 +1,7 @@
 
 
 
-
+#! /bin/bash
 #my variable for red color
 b=red
 #write your favorite color.
