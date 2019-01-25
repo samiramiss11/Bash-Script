@@ -14,23 +14,16 @@
 $vi employee
 
 A001           ARJUN       E1      01      12000.00
-
 A006           Anand         E1      01      12450.00
-
 A010           Rajesh         E2      03      14500.00
-
 A002           Mohan         E2      02      13000.00
-
 A005           John             E2      01      14500.00
-
 A009           Denial SmithE2      04      17500.00
-
 A004           Williams      E1      01      12000.00
 
 
 
 #2b.  Sort the file on EmpCode.
-
 $cut –f1 employee | sort
 
 #2c. Sort the file on EmpName.
@@ -39,7 +32,7 @@ $cut –f2 employee | sort
 
 #2d. Sort the file on
 #(i) Decreasing order of basic pay
-3(ii) Increasing order of years of experience.
+#(ii) Increasing order of years of experience.
 
 (i) $cut –f5 employee | sort –r
 
